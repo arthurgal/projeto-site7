@@ -1,3 +1,41 @@
 body{
-    background-color: rgb(184, 131, 131);
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(243, 239, 239);
+}
+
+.cabecalho-principal{
+    background-color: rgb(70, 115, 240);
+    padding: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.cabecalho-principal, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-cabecalho{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: rgb(243, 239, 239);
+    font-size: 26px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: solid 5px rgb(243, 239, 239);
+    border-radius: 3px;
+}
+
+.busca-cabecalho{
+    display: flex;
 }
