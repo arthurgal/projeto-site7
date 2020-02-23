@@ -3,19 +3,22 @@ body{
     background-color: rgb(243, 239, 239);
 }
 
-.cabecalho-principal,
-.roda-pe-principal{
+a{
+    text-decoration: none;
+}
+
+.cabecalho-principal, footer{
     background-color: rgb(70, 115, 240);
     padding: 20px;
 }
 
-.container, .container2{
+.container{
     width: 80%;
     margin: 0px auto;
     display: flex;
 }
 
-.cabecalho-principal, .container{
+.cabecalho-principal .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,16 +96,45 @@ body{
 
     /* FIM DO CSS DA CAIXA DE PESQUISA */
 
-    .roda-pe-principal, .container2{
-        display: flex;
-        justify-content: space-around;
+    footer{
+        font-size: 80%;
+    }
+
+    footer h4{
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: whitesmoke;
     }
 
     .section-redes-socias{
-        display: flex;
-        flex-wrap: wrap;
+        border-right: 1.5px solid rgb(47, 88, 201);
+        margin-right: 5em;
+        padding-right: 20em ;
     }
-    .info-redes-sociais{
+    .section-redes-socias ul a{
+        margin: 2em auto;
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        color: whitesmoke;
+    }
+
+    .section-redes-socias ul li img {
+        width: 30px;
+        margin-right: 1em;
+    }
+
+    
+
+    footer .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-mapa{
+        text-align: center;
+    }
+
+    .section-mapa h4{
+        margin-bottom: 1em;
     }
