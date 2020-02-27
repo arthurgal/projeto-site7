@@ -28,7 +28,7 @@ a{
 
 .menu-cabecalho{
     display: flex;
-    width: 210px;
+    width: 310px;
     justify-content: space-around;
 }
 
@@ -54,7 +54,8 @@ a{
     /* FIM DO CSS DO MENU */
 
 
-    /* CSS DA CAIXA DE PESQUISA */
+	/* CSS DA CAIXA DE PESQUISA */
+	
 #divBusca{
     display: flex;
     background-color:rgb(180, 196, 241);
@@ -94,8 +95,40 @@ a{
     float:left;
   }
 
-    /* FIM DO CSS DA CAIXA DE PESQUISA */
+    /* FIM - CSS DA CAIXA DE PESQUISA */
 
+	/* CSS DO PORTIFOLIO */
+
+	main .container-portifolio, .container-quem-somos{
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	.container-portifolio{
+		text-align: center;
+	}
+
+	.section-portifolio{
+		margin: 1rem auto;
+	}
+
+	.section-portifolio h2{
+		margin: 1rem auto;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.section-portifolio ul{
+		display: flex;
+		justify-content: center;
+	}
+
+	.section-portifolio ul li{
+		padding-right: 1rem;
+	}
+
+	/* FIM - CSS DO PORTIFOLIO */
+    
     footer{
         font-size: 80%;
     }
