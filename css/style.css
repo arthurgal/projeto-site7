@@ -10,6 +10,7 @@ a{
 .cabecalho-principal, footer{
     background-color: rgb(70, 115, 240);
     padding: 20px;
+    box-shadow: 1px 4px rgb(11, 29, 78);
 }
 
 .container{
@@ -22,6 +23,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
     /* CSS DO MENU */
@@ -36,9 +38,9 @@ a{
     color: rgb(243, 239, 239);
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding: 10px 15px 10px 15px;
     text-decoration: none;
-    border-radius: 3px;
+    border: 1px solid;
     transition: .2s;
 }
 
@@ -46,9 +48,9 @@ a{
     color: rgb(236, 138, 45);
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 5px;
+    background-color: orange;
+    border: 1px solid rgb(236, 138, 45);
     text-decoration: none;
-    border-radius: 3px;
 }
 
     /* FIM DO CSS DO MENU */
@@ -104,31 +106,44 @@ a{
 		margin: 0px auto;
 	}
 
-	.container-portifolio{
+	.container-portifolio, .container-quem-somos{
 		text-align: center;
 	}
 
-	.section-portifolio{
-		margin: 1rem auto;
+	.section-portifolio, .section-quem-somos{
+		margin: 2rem auto;
 	}
 
-	.section-portifolio h2{
+	.section-portifolio h2, .section-quem-somos h3{
+        font-size: 2rem;
 		margin: 1rem auto;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
 
 	.section-portifolio ul{
-		display: flex;
-		justify-content: center;
+        display: flex;
+        margin: 0rem 10rem 0rem 10rem;
+        justify-content: center;
+        border: 2px solid rgb(216, 215, 215);
+        border-radius: 40px;
+        box-shadow: 1px 4px rgb(151, 149, 149);
 	}
 
 	.section-portifolio ul li{
-		padding-right: 1rem;
+        padding: 2rem 1rem 2rem 0rem;
 	}
 
-	/* FIM - CSS DO PORTIFOLIO */
+    /* FIM - CSS DO PORTIFOLIO */
     
+    /* INICIO - CSS DO QUEM SOMOS */
+
+    .section-quem-somos p{
+        text-align: justify;
+        margin: 0rem 10rem;
+    }
+
+
     footer{
         font-size: 80%;
     }
