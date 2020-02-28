@@ -13,6 +13,11 @@ a{
     box-shadow: 1px 4px rgb(11, 29, 78);
 }
 
+.cabecalho-principal h1{
+    font-size: 3rem;
+    color: rgb(243, 239, 239);
+}
+
 .container{
     width: 80%;
     margin: 0px auto;
@@ -101,27 +106,31 @@ a{
 
 	/* CSS DO PORTIFOLIO */
 
-	main .container-portifolio, .container-quem-somos{
+	main .container-portifolio, .container-quem-somos, .container-clientes{
 		width: 80%;
 		margin: 0px auto;
 	}
 
-	.container-portifolio, .container-quem-somos{
+	.container-portifolio, .container-quem-somos, .container-clientes{
 		text-align: center;
 	}
 
-	.section-portifolio, .section-quem-somos{
+	.section-portifolio, .section-quem-somos, .section-clientes{
 		margin: 2rem auto;
 	}
 
-	.section-portifolio h2, .section-quem-somos h3{
+	.section-portifolio h2, .section-quem-somos h3, .section-clientes h4{
+        color: rgb(236, 138, 45);
         font-size: 2rem;
+        width: 50%;
+        border-bottom: 3px solid rgb(11, 29, 78);
+        padding-bottom: 2rem;
 		margin: 1rem auto;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
 
-	.section-portifolio ul{
+	.section-portifolio ul, .container-clientes ul{
         display: flex;
         margin: 0rem 10rem 0rem 10rem;
         justify-content: center;
@@ -130,7 +139,7 @@ a{
         box-shadow: 1px 4px rgb(151, 149, 149);
 	}
 
-	.section-portifolio ul li{
+	.section-portifolio ul li, .section-clientes ul li{
         padding: 2rem 1rem 2rem 0rem;
 	}
 
