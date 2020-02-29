@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Sete Gráfica - Contatos</title>
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="cabecalho-principal">
+            <div class="container">
+                <h1>Sete Gráfica</h1>
+                <nav class="menu-cabecalho">
+                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#">Contatos</a>
+                </nav>
+                
+            
+        </header>
+        <main>
+            <div class="container-contatos">
+
+                <section class="section-redes-socias-contatos">
+
+                    <ul>
+
+                        <li><a href="#"><img src="../img/instagram.svg">@setegrafica</a></li>
+                        
+                        <li><a href="#"><img src="../img/facebook.svg">@setegrafica</a></li>
+
+                        <li><a href="#"><img src="../img/whatsapp.svg">@setegrafica</a></li>
+
+                    </ul>
+
+                </section>
+
+                <section class="section-formulario">
+                    <form class="formulario" method="post"> 
+                        <p> Entre em contato com a Sete Gráfica</p>
+                        
+                        <div class="field">
+                            <label for="nome">Seu Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                        </div>
+                        
+                        <div class="field">
+                            <label for="telefone">Seu Telefone:</label>
+                            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                        </div>
+                
+                        <div class="field">
+                            <label for="email">Seu E-Mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                        </div>        
+                        <div class="field radiobox">
+                            <span>Deseja receber nossas novidades?</span>
+                            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                        </div>
+                        <div class="field">
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                        </div>
+                
+                        <input type="submit" name="acao" value="Enviar">
+                </section>
+
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+
+                <section class="section-mapa">
+                    <h4>Mapa</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15875.972633824023!2d-35.2365311!3d-5.8565836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb42574284409acb1!2zU2V0ZSBHcsOhZmljYSBSw6FwaWRh!5e0!3m2!1spt-BR!2sbr!4v1582477218525!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </section>
+            </div>
+        </footer>
+
+    </body>
+</html>

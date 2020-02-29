@@ -106,7 +106,7 @@ a{
 
 	/* CSS DO PORTIFOLIO */
 
-	main .container-portifolio, .container-quem-somos, .container-clientes{
+	main .container-portifolio, .container-quem-somos, .container-clientes, .container-contatos{
 		width: 80%;
 		margin: 0px auto;
 	}
@@ -152,6 +152,9 @@ a{
         margin: 0rem 10rem;
     }
 
+    /* FIM - CSS DO QUEM SOMOS */
+
+    /* INICIO - CSS DO FOOTER */
 
     footer{
         font-size: 80%;
@@ -194,4 +197,135 @@ a{
 
     .section-mapa h4{
         margin-bottom: 1em;
+    }
+
+    /* FIM - CSS DO FOOTER */
+
+
+    /* INICIO - PAGINA - CONTATOS */
+
+    .container-contatos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .container-contatos .section-redes-socias-contatos ul a{
+        color: black;
+    }
+
+
+
+    .formulario{
+        width: 400px;
+        padding: 30px;
+    }
+    .formulario p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .field{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .field label, 
+    .field span{
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+    }
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+    input#nao{
+        margin-left: 30px;
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+        resize: none;
+    }
+    input[type=submit]{
+        display: block;
+        background-color: #ccc;
+        height: 35px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .section-redes-socias-contatos ul a{
+        margin: 2em auto;
+        display: flex;
+        align-items: center;
+        color: whitesmoke;
+    }
+
+    .section-redes-socias-contatos ul li img {
+        width: 30px;
+        margin-right: 1em;
+    }
+
+
+
+    /* AQUI COMEÇA A PARTE MOBILE */
+
+    @media(max-width: 1024px){
+        .menu{
+            flex-direction: column;
+        }
+    
+        .cabecalho-principal, .container{
+            flex-direction: column;
+            align-items: initial;
+            text-align: center;
+        }
+    
+        .tipo-usuario-aluno{
+            width: 100%;
+        }
+    
+        .menu-usuario{
+            flex-direction: column;
+        }
+    
+        .caixa-aluno, .caixa-professor{
+            margin: 20px;
+        }
+        
+        .cabecalho-principal .container{
+            flex-direction: column;
+        }
+        
+        .menu-cabecalho{
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        footer .container{
+            flex-direction: column;
+        }
+
+        .section-quem-somos p{
+            text-align: justify;
+            margin: auto;
+        }
     }
