@@ -8,7 +8,7 @@ a{
 }
 
 .cabecalho-principal, footer{
-    background-color: rgb(70, 115, 240);
+    background-color: rgb(36, 57, 115);
     padding: 20px;
     box-shadow: 1px 4px rgb(11, 29, 78);
 }
@@ -126,7 +126,6 @@ a{
         border-bottom: 3px solid rgb(11, 29, 78);
         padding-bottom: 2rem;
 		margin: 1rem auto;
-		text-transform: uppercase;
 		font-weight: bold;
 	}
 
@@ -167,7 +166,7 @@ a{
     }
 
     .section-redes-socias{
-        border-right: 1.5px solid rgb(47, 88, 201);
+        border-right: 1.5px solid rgb(24, 39, 82);
         margin-right: 5em;
         padding-right: 20em ;
     }
