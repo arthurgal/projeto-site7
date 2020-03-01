@@ -1,0 +1,157 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(243, 239, 239);
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho-principal, footer{
+    background-color: rgb(70, 115, 240);
+    padding: 20px;
+    box-shadow: 1px 4px rgb(11, 29, 78);
+}
+
+.cabecalho-principal h1{
+    font-size: 3rem;
+    color: rgb(243, 239, 239);
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.cabecalho-principal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* CSS DO MENU */
+.menu-cabecalho{
+    display: flex;
+    width: 310px;
+    justify-content: space-around;
+}
+    
+.nav-link{
+    color: rgb(243, 239, 239);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border: 1px solid;
+    transition: .2s;
+}
+    
+.nav-link:hover{
+    color: rgb(236, 138, 45);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orange;
+    border: 1px solid rgb(236, 138, 45);
+    text-decoration: none;
+}
+
+/* FIM DO CSS DO MENU */
+
+
+/* INICIO DO CSS DA MAIN*/
+
+main h2{
+    text-align: center;
+    color: rgb(236, 138, 45);
+    font-size: 2rem;
+    width: 50%;
+    border-bottom: 3px solid rgb(11, 29, 78);
+    padding-bottom: 1rem;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-redes-socias-contatos ul li img{
+    width: 30px;
+    margin-right: 1rem;
+}
+.section-redes-socias-contatos ul a{
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    color: rgb(7, 12, 26);
+}
+
+/* INICIO DO CSS DA MAIN PARTE DO FORMULARIO*/
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* INICIO DO CSS DA MAIN PARTE DO FORMULARIO*/
+
+/* FIM DO CSS DA MAIN*/
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
