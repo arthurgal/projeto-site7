@@ -2,60 +2,54 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(243, 239, 239);
 }
+body h1{
+    color: #ffffff;
+    margin-right: auto;
+}
 
 a{
     text-decoration: none;
 }
 
-.cabecalho-principal, footer{
-    background-color: rgb(36, 57, 115);
-    padding: 20px;
-    box-shadow: 1px 4px rgb(11, 29, 78);
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
-.cabecalho-principal h1{
-    font-size: 3rem;
-    color: rgb(243, 239, 239);
-}
-
-.container{
-    width: 80%;
-    margin: 0px auto;
+header{
+    background-color: blue;
     display: flex;
-}
-
-.cabecalho-principal .container{
-    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
-    
+    padding: 30px 10%;
 }
 
-    /* CSS DO MENU */
-
-.menu-cabecalho{
-    display: flex;
-    width: 310px;
-    justify-content: space-around;
+ul li{
+    display: inline-block;
+    padding: 0px 1rem;
 }
 
-.nav-link{
-    color: rgb(243, 239, 239);
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 15px 10px 15px;
-    text-decoration: none;
-    border: 1px solid;
-    transition: .2s;
+ul li a{
+    transition: all 0.3s ease 0s;
 }
 
-.nav-link:hover{
-    color: rgb(236, 138, 45);
-    font-size: 20px;
-    font-weight: bold;
-    background-color: orange;
-    border: 1px solid rgb(236, 138, 45);
-    text-decoration: none;
+ul li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(236, 138, 45, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover{
+    background-color: rgba(236, 138, 45, 0.8);   
 }
 
     /* FIM DO CSS DO MENU */
@@ -157,6 +151,7 @@ a{
 
     footer{
         font-size: 80%;
+        background-color: blue;
     }
 
     footer h4{
@@ -170,8 +165,13 @@ a{
         margin-right: 5em;
         padding-right: 20em ;
     }
+    .section-redes-socias ul li{
+        display: flex;
+        align-items: center;
+        color: whitesmoke;
+    }
     .section-redes-socias ul a{
-        margin: 2em auto;
+        margin: 1em auto;
         display: flex;
         align-items: center;
         color: whitesmoke;
@@ -189,6 +189,8 @@ a{
     }
 
     .section-mapa{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         text-align: center;
     }
 
