@@ -55,8 +55,10 @@ button:hover{
 	/* CSS DO PORTIFOLIO */
 
 	main .container-portifolio, .container-quem-somos, .container-clientes{
-		width: 80%;
-		margin: 0px auto;
+		width: 90%;
+        margin: 0px auto;
+        border-radius: 40px;
+        box-shadow: 6px 6px 20px 10px #c5c5c5;
 	}
 
 	.container-portifolio, .container-quem-somos, .container-clientes{
@@ -64,7 +66,8 @@ button:hover{
 	}
 
 	.section-portifolio, .section-quem-somos, .section-clientes{
-		margin: 2rem auto;
+        margin: 2rem auto;
+        padding: 30px;
 	}
 
 	.section-portifolio h2, .section-quem-somos h3, .section-clientes h4{
@@ -81,9 +84,6 @@ button:hover{
         display: flex;
         margin: 0rem 10rem 0rem 10rem;
         justify-content: center;
-        border: 2px solid rgb(216, 215, 215);
-        border-radius: 40px;
-        box-shadow: 1px 4px rgb(151, 149, 149);
 	}
 
 	.section-portifolio ul li, .section-clientes ul li{
