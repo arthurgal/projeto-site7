@@ -21,7 +21,7 @@ li, a, button{
 }
 
 header{
-    background-color: blue;
+    background-color: rgb(4, 4, 61);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -73,9 +73,18 @@ main .container{
     justify-content: space-around;
 }
 
+.section-redes-socias-contatos h3{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(233, 144, 61);
+}
+
 .section-redes-socias-contatos ul{
     display: grid;
-    padding-left: 4em;
+}
+
+.section-redes-socias-contatos ul li{
+    padding: 0px;
 }
 .section-redes-socias-contatos ul li img{
     width: 30px;
@@ -85,7 +94,7 @@ main .container{
     margin: 2em auto;
     display: flex;
     align-items: center;
-    color: rgb(7, 12, 26);
+    color: rgb(4, 4, 61);
 }
 
 /* INICIO DO CSS DA MAIN PARTE DO FORMULARIO*/
