@@ -68,6 +68,7 @@ main h2{
 }
 
 main .container{
+    margin: 0px 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
