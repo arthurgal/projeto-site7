@@ -1,6 +1,6 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(243, 239, 239);
+    font-family: 'Inria Sans', sans-serif;
+    background-color: rgb(243, 239, 242);
 }
 body h1{
     color: #ffffff;
@@ -48,10 +48,12 @@ button:hover{
     
     main .container-clientes{
         text-align: center;
+        margin-bottom: 30px;
     }
 
     main .container-portifolio{
         text-align: center;
+        margin-bottom: 30px;
     }
 
 	main .container-quem-somos{
@@ -60,14 +62,20 @@ button:hover{
         text-align: center;
 	}
 
+    .section-clientes{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
     
-	.section-portifolio h2, .section-quem-somos h3, .section-clientes h4{
+	.section-portifolio h2, .section-quem-somos h3, .section-clientes h3{
         color: rgb(8, 121, 250);
         font-size: 2rem;
         width: 50%;
-        border-bottom: 3px solid rgb(232, 229, 229);
         padding-bottom: 1rem;
-		margin: 1rem auto;
+		margin: 0rem auto;
 		font-weight: bold;
 	}
 
@@ -87,7 +95,8 @@ button:hover{
 
     .section-quem-somos p{
         text-align: justify;
-        margin: 0rem 10rem;
+        font-weight: bold;
+        margin: 2rem 10rem;
     }
 
     /* FIM - CSS DO QUEM SOMOS */

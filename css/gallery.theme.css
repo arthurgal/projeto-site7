@@ -1,9 +1,9 @@
-.gallery .control-button {
+main .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
 }
 
-.gallery .control-button:hover {
+main .gallery .control-button:hover {
   color: white;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -11,22 +11,22 @@
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
-.gallery {
+main .gallery {
   position: relative;
   height: 600px;
 }
-.gallery .item {
+main .gallery .item {
   overflow: hidden;
   text-align: center;
   background: #4d87e2;
 }
-.gallery .controls {
+main .gallery .controls {
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
-.gallery .control-button {
+main .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
   font-size: 3em;
@@ -34,3 +34,45 @@
   text-decoration: none;
   transition: color .1s;
 }
+
+/*
+	Gallery dos clientes
+*/
+
+.container-clientes .gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.container-clientes .gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+.container-clientes .gallery {
+  position: relative;
+  height: 100px;
+  width: 50%;
+  box-shadow: 2px 9px 2px 1px #e2e2e2;
+}
+.container-clientes .gallery .item {
+  overflow: hidden;
+  text-align: center;
+  background: #4d87e2;
+}
+.container-clientes .gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.container-clientes .gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
