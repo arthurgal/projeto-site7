@@ -31,18 +31,6 @@ ul li a:hover{
     color: #0088a9;
 }
 
-button{
-    padding: 9px 25px;
-    background-color: rgba(236, 138, 45, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-}
-
-button:hover{
-    background-color: rgba(236, 138, 45, 0.8);   
-}
 
     /* CSS DO PORTIFOLIO */
     

@@ -1,8 +1,7 @@
 /* TOPO DA PAGINA */
-
 body{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(243, 239, 239);
+    font-family: 'Inria Sans', sans-serif;
+    background-color: rgb(243, 239, 242);
 }
 body h1{
     color: #ffffff;
@@ -20,14 +19,6 @@ li, a, button{
     text-decoration: none;
 }
 
-header{
-    background-color: rgb(4, 4, 61);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-}
-
 ul li{
     display: inline-block;
     padding: 0px 1rem;
@@ -41,126 +32,109 @@ ul li a:hover{
     color: #0088a9;
 }
 
-button{
-    padding: 9px 25px;
-    background-color: rgba(236, 138, 45, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
+
+
+/* TOPO DA PAGINA */
+
+main .container-pg-contatos{
+    display: flex;
+    width: 90%;
+    margin: 120px auto;
 }
 
-button:hover{
-    background-color: rgba(236, 138, 45, 0.8);   
-}
-
-/* INICIO DO CSS DA MAIN PARTE DAS REDES SOCIAIS*/
-
-main h2{
+.section-redes-socias{
     text-align: center;
-    color: rgb(236, 138, 45);
-    font-size: 2rem;
     width: 50%;
-    border-bottom: 3px solid rgb(11, 29, 78);
-    padding-bottom: 1rem;
+}
+
+.section-redes-socias h4, .section-forms h4{
     margin: 1rem auto;
     font-weight: bold;
 }
 
-main .container{
-    margin: 0px 20%;
+.section-redes-socias ul li{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section-redes-socias-contatos h3{
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: rgb(233, 144, 61);
-}
-
-.section-redes-socias-contatos ul{
-    display: grid;
-}
-
-.section-redes-socias-contatos ul li{
-    padding: 0px;
-}
-.section-redes-socias-contatos ul li img{
-    width: 30px;
-    margin-right: 1rem;
-}
-.section-redes-socias-contatos ul a{
-    margin: 2em auto;
-    display: flex;
-    align-items: center;
-    color: rgb(4, 4, 61);
-}
-
-/* INICIO DO CSS DA MAIN PARTE DO FORMULARIO*/
-
-.formulario{
-    width: 400px;
-    padding: 30px;
-}
-.formulario p{
-    width: 100%;
-    font-size: 1.5em;
-}
-.field{
-    width: 100%;
-    margin: 15px 0;
-}
-.field label, 
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
-input[type=text],
-input[type=email],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
-}
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-input[type=submit]{
-    display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
     text-align: center;
-    border-radius: 15px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.section-redes-socias ul a{
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
 }
 
-/* INICIO DO CSS DA MAIN PARTE DO FORMULARIO*/
+.section-redes-socias ul li img {
+    width: 30px;
+    margin-right: 1em;
+}
 
-/* FIM DO CSS DA MAIN*/
+footer{
+    font-size: 80%;
+    background-color: rgb(8, 121, 250);
+}
 
-footer .container{
-    display: flex;
-    justify-content: center;
+/* Css Forms */
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
 }
