@@ -40,62 +40,11 @@ ul li a:hover{
 }
 
 
-    /* CSS DO PORTIFOLIO */
-    
-    main .container-clientes{
-        text-align: center;
-        margin-bottom: 30px;
-    }
+/* main */
 
-    main .container-portifolio{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-	main .container-quem-somos{
-		width: 80%;
-        margin: 0px auto;
-        text-align: center;
-	}
-
-    .section-clientes{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0px auto;
-    }
-    
-	.section-portifolio h2, .section-quem-somos h3, .section-clientes h3{
-        color: rgb(8, 121, 250);
-        font-size: 2rem;
-        width: 50%;
-        padding-bottom: 1rem;
-		margin: 0rem auto;
-		font-weight: bold;
-	}
-
-	.section-portifolio ul, .container-clientes ul{
-        display: flex;
-        margin: 0rem 10rem 0rem 10rem;
-        justify-content: center;
-	}
-
-	.section-portifolio ul li, .section-clientes ul li{
-        padding: 2rem 1rem 2rem 0rem;
-	}
-
-    /* FIM - CSS DO PORTIFOLIO */
-    
-    /* INICIO - CSS DO QUEM SOMOS */
-
-    .section-quem-somos p{
-        text-align: justify;
-        font-weight: bold;
-        margin: 2rem 10rem;
-    }
-
-    /* FIM - CSS DO QUEM SOMOS */
+.album{
+    margin-top: 45px;
+}
 
     /* INICIO - CSS DO FOOTER */
 

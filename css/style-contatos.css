@@ -12,6 +12,14 @@ a{
     text-decoration: none;
 }
 
+.navbar-brand{
+    margin: 0px 0px 0px 50px;
+}
+
+#logo{
+    width: 70px;
+}
+
 li, a, button{
     font-weight: 500;
     font-size: 16px;
