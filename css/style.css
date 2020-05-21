@@ -10,94 +10,16 @@ body h1{
 a{
     text-decoration: none;
 }
+/* INICIO - CSS DO main */
 
-.navbar-brand{
-    margin: 0px 0px 0px 50px;
-}
-
-#logo{
-    width: 70px;
-}
-
-li, a, button{
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-ul li{
-    display: inline-block;
-    padding: 0px 1rem;
-}
-
-ul li a{
-    transition: all 0.3s ease 0s;
-}
-
-ul li a:hover{
-    color: #0088a9;
+.img-carousel{
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 600px;
 }
 
 
-    /* CSS DO PORTIFOLIO */
-    
-    main .container-clientes{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    main .container-portifolio{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-	main .container-quem-somos{
-		width: 80%;
-        margin: 0px auto;
-        text-align: center;
-	}
-
-    .section-clientes{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0px auto;
-    }
-    
-	.section-portifolio h2, .section-quem-somos h3, .section-clientes h3{
-        color: rgb(8, 121, 250);
-        font-size: 2rem;
-        width: 50%;
-        padding-bottom: 1rem;
-		margin: 0rem auto;
-		font-weight: bold;
-	}
-
-	.section-portifolio ul, .container-clientes ul{
-        display: flex;
-        margin: 0rem 10rem 0rem 10rem;
-        justify-content: center;
-	}
-
-	.section-portifolio ul li, .section-clientes ul li{
-        padding: 2rem 1rem 2rem 0rem;
-	}
-
-    /* FIM - CSS DO PORTIFOLIO */
-    
-    /* INICIO - CSS DO QUEM SOMOS */
-
-    .section-quem-somos p{
-        text-align: justify;
-        font-weight: bold;
-        margin: 2rem 10rem;
-    }
-
-    /* FIM - CSS DO QUEM SOMOS */
-
-    /* INICIO - CSS DO FOOTER */
+/* INICIO - CSS DO FOOTER */
 
     footer{
         font-size: 80%;
